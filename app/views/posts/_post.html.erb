@@ -34,7 +34,7 @@
           </div>
 
           <div class="comment-form col-sm-11">
-            <%= form_for [post, post.comments.new] do |f| %>
+            <%= form_for([post, post.comments.new], remote: true) do |f| %>
               <%= f.text_field :content, placeholder: "Add a comment..." %>
             <% end %>
           </div>
