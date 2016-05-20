@@ -3,7 +3,7 @@
     <div class="post-body">
       <div class="image-wrap">
 
-        <%= image_tag 'placeholder.jpg', id: 'image-preview', class: 'img-responsive' %>
+        <%= form_image_select(@post) %>
         <%= simple_form_for @post, html: { multipart: true } do |f| %>
           
           <div class="row">
