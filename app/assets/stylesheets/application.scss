@@ -175,3 +175,14 @@ body {
     text-align: center;
   }
 }
+
+.login-bg {
+  padding-top: 4em;
+  height: 100%;
+  background-image: image-url('login.jpg');
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
