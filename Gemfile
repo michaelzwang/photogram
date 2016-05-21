@@ -25,6 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'devise'
+gem 'kaminari', '~> 0.16.3'  
 gem "paperclip", "~> 5.0.0.beta1"
 gem 'simple_form', '~> 3.1.0'
 
