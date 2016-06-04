@@ -8,4 +8,5 @@ Users can create an account and upload pictures to share with their friends.
 ## Configuration / Set-up
 - Ruby version 2.2.2
 - Rails version 4.2.6
+
 Once installed, run bundle install and migration to access the application.
